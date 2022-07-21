@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task">
+    <title>How-to reuse content</title>
+    <shortdesc>A short explanation.</shortdesc>
+    <taskbody>
+        <context>Follow the steps.<p/></context>
+        <steps>
+            <step>
+                <cmd>Do this.</cmd>
+            </step>
+            <step>
+                <cmd>Do this.</cmd>
+            </step>
+            <step>
+                <cmd>Do this. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
