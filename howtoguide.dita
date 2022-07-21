@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="howtoguide">
+    <title>How-to guide</title>
+    <body>
+        <p>The document explains how to write an effective How-to guide. The document is organized
+            as follows:</p>
+        <ul id="contentlist">
+            <li><xref href="howtoguide.dita#howtoguide/introduction"/>.</li>
+            <li><xref href="#howtoguide/whyhowto">Why do I need a How-to?</xref></li>
+            <li><xref href="#howtoguide/beforewriting">Before writing a How-to.</xref></li>
+            <li><xref href="#howtoguide/examplehowto">An How-to example</xref></li>
+            <li><xref href="#howtoguide/aboutoverview">About the Overview section.</xref></li>
+            <li><xref href="#howtoguide/aboutbeforeyoubegin">About the Before you begin
+                    section.</xref></li>
+            <li><xref href="#howtoguide/aboutprocedure">About the Procedure section.</xref></li>
+            <li><xref href="#howtoguide/aboutseealso">About the See also section.</xref></li>
+            <li><xref href="#howtoguide/bestpractices">Best practices for writing a How-to
+                    guide.</xref></li>
+            <li><xref href="additionalresources.dita" format="xml">Additional
+                Resources.</xref><p/></li>
+        </ul>
+        <section id="introduction">
+            <title>Introduction</title>
+            <p>How-to guides describe a set of ordered sequential steps users must complete to
+                accomplish a specific task. </p>
+            <p>How-to guides assume that a user has basic knowledge of the product and the user
+                knows what they want to achieve.</p>
+            <p>How-to guides are accessed by users who have experience with a product but need a
+                specific question answered.</p>
+            <p>How-to guides can benefit new users who want to solve a problem instantly provided
+                the How-to is well-written and states any prerequisite knowledge required to
+                complete the task.</p>
+            <p>How-to guides have concise, easy-to-understand instructions that simplify complex
+                actions.</p>
+            <p>How-to guides are often confused with Tutorials. Tutorials are learning-oriented,
+                while How-to guides are task-oriented. The table below identifies the differences
+                between Tutorials and How-to guides.</p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_qdk_g5g_g5b">
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Tutorials</entry>
+                                <entry>How-to</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Learning oriented </entry>
+                                <entry>Task oriented</entry>
+                            </row>
+                            <row>
+                                <entry>Helps beginners or expert users learn a new feature and
+                                    provide a successful learning experience</entry>
+                                <entry>Helps an expert user accomplish a specific task or
+                                    troubleshoot a particular issue.</entry>
+                            </row>
+                            <row>
+                                <entry>Follows a carefully managed path, from the start to the
+                                    end.</entry>
+                                <entry>Aims for a successful result by guiding the user through a
+                                    set of ordered sequential steps.</entry>
+                            </row>
+                            <row>
+                                <entry>Eliminates any unexpected scenarios and provides users with a
+                                    successful outcome.</entry>
+                                <entry>Alerts the user to the possibility of unexpected scenarios,
+                                    and provides guidance on how to deal with them.</entry>
+                            </row>
+                            <row>
+                                <entry>Assumes that users do not have any practical knowledge, and
+                                    must explicitly state any tools, file configurations, and
+                                    conceptual details required for understanding.</entry>
+                                <entry>Assumes that users have practical knowledge of tools, file
+                                    configurations, and conceptual details.</entry>
+                            </row> 
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <p/>
+        <section id="whyhowto">
+            <title><b>Why do I need a How-to?</b></title>
+            <p>A How-to guide is often used to help users perform a task correctly. It can:</p>
+            <p>
+                <ul id="ul_tc1_x5g_g5b">
+                    <li>Guide users to solve a problem through a set of ordered sequential
+                        steps.</li>
+                    <li>Demonstrate the different capabilities of a product.</li>
+                    <li>Generate confidence using a product.</li>
+                    <li>Improve the user experience, and help reduce costs by lowering the number of
+                        support requests<i>.</i><p/></li>
+                </ul>
+            </p>
+        </section>
+        <section id="beforewriting">
+            <title><b>Before writing a How-to</b></title>
+            <p>Before you start working on your How-to guide:</p>
+            <p>
+                <ul id="ul_lpx_bvg_g5b">
+                    <li>Identify the target audience. Who is expected to read the How-to? What prior
+                        knowledge is anticipated? This will influence the level of general and
+                        technical language of the How-to guide.</li>
+                    <li>Consider the specific goal of the How-to guide. What is the How-to guide
+                        aiming to accomplish? </li>
+                    <li>Determine the multiple ways through which a task can be completed. Is there
+                        one specific series of ordered sequential steps or are there multiple paths
+                        that need explaining? </li>
+                    <li>Ensure that the How-to guide offers the most reliable and safest procedure
+                        to complete a task.</li>
+                    <li>Take into account the different error scenarios that a user may encounter
+                        while completing a task, and provide associated solutions.<p/></li>
+                </ul>
+            </p>
+        </section>
+        <section id="examplehowto">
+            <title>An How-to guide example</title>
+        </section>
+        <section id="examplehowtoexample">
+            <p>The following is an example How-to guide with essential Headings.</p>
+            <p/>
+        </section>
+        <p><b>Title</b></p>
+        <p>How-to create a GitHub repository</p>
+        <p><b>Overview</b></p>
+        <p>To put a project on GitHub you will need to create a repository (also known as a
+            repo).</p>
+        <p><b>Before you begin</b></p>
+        <p>Ensure you have logged in to GitHub.</p>
+        <p><b>Procedure</b></p>
+        <ol id="ol_urs_mc3_g5b">
+            <li>In the top left corner, select New.</li>
+            <li>Type a short, memorable name for your repository. For example, "hello-world".</li>
+            <li>Optionally, add a short description of your repository. For example, "My first
+                repository in GitHub."</li>
+            <li>Choose a repository visibility. You can use Public at this stage for
+                convenience.</li>
+            <li>Select <b>Initialize this repository with a README.</b></li>
+            <li>Click <b>Create repository.</b></li>
+        </ol>
+        <p>You have succssfully created your first repository, and initialized it with a README
+            file. </p>
+        <p><b>See also</b></p>
+        <p>For more information about repository visibility, see "<xref
+                href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility"
+                format="html" scope="external">About repositories.</xref>" </p>
+        <p/>
+        <section id="aboutoverview">
+            <title><b>About the Overview section</b></title>
+            <p>Use this section to provide the following:</p>
+            <p>
+                <ul id="ul_jn5_vvg_g5b">
+                    <li>A clear description of the problem or the task that the user can solve or
+                        complete in this How-to. Here are some examples:<ul id="ul_kn5_vvg_g5b">
+                            <li>This guide explains how to comment on a pull request.</li>
+                            <li>This guide explains how to create or delete a branch on GitHub.</li>
+                            <li>This guide explains how to create a repository.</li>
+                        </ul></li>
+                    <li>Optionally, explain the scenario under which this How-to guide can be used.
+                        For example, in a guide for <b>creating a pull request from fork</b>, inform
+                        users straightaway that if they do not have write permissions to the
+                        repository, they must fork the repository before creating a pull request.
+                            <p/><p>If your main task includes multiple sub-tasks that can be used
+                            under different scenarios, you can create a table as shown below and
+                            hyperlink the different How-to guides available for the task.</p><p>
+                            <table frame="all" rowsep="1" colsep="1" id="table_qml_zvg_g5b">
+                                <tgroup cols="2">
+                                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                                    <thead>
+                                        <row>
+                                            <entry>Guide</entry>
+                                            <entry>Scenario</entry>
+                                        </row>
+                                    </thead>
+                                    <tbody>
+                                        <row>
+                                            <entry>Create a pull request from fork</entry>
+                                            <entry>The user does not have write permission to the
+                                                repo.</entry>
+                                        </row>
+                                        <row>
+                                            <entry>Create a pull request </entry>
+                                            <entry>The user has write permission to the
+                                                repo.</entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table>
+                        </p></li>
+                </ul>
+            </p>
+        </section>
+        <p/>
+        <section id="aboutbeforeyoubegin">
+            <title><b>About the Before you begin section</b></title>
+            <p>In this section describe what your users need to know, or need to have, before they
+                attempt the How-to. By stating the requirements up-front, you prevent your users
+                from getting halfway through the guide and discovering that they need to go and read
+                other documentation before they can continue.</p>
+            <p>Use this section to communicate any prerequisites for this How-to, such as:</p>
+            <ul id="ul_lvg_2wg_g5b">
+                <li>Familiarity with the application.</li>
+                <li>Software and tools needed.</li>
+                <li>Environments to set up and configure.</li>
+                <li>Authentication and authorization information. </li>
+                <li>Other guides or information to read.</li>
+            </ul>
+            <p>For easy understanding, consider classifying the prerequisites into different
+                categories such as software prerequisites and hardware prerequisites.</p>
+            <p>Also, include other important information here, such as known issues or bugs.</p>
+            <p>Optionally, provide any helpful cues that signal to a user that they are probably not
+                in the right place and provide them with more suitable options. For example, </p>
+            <p>If this document does not help you resolve your issue then &lt;provide link to a
+                relevant article> or specify any contact support information.</p>
+            <p/>
+        </section>
+        <section id="aboutprocedure">
+            <title><b>About the Procedure section</b></title>
+            <p>The Procedure section is where you describe the steps the user needs to do to
+                accomplish a task. Use an ordered list structure to document the How-to steps. </p>
+            <p>1. {Write the step heading here. Start with a verb.}</p>
+            <p> {Optional: Explanatory text}</p>
+            <p> {Optional: Code sample or screenshot that helps your users complete this step}</p>
+            <p> {Optional: Result}</p>
+            <p> </p>
+            <p>The first element is the step itself, for example, "Enter a name for your new
+                repository." When writing steps, keep these tips in mind:</p>
+            <ul id="ul_w2x_gwg_g5b">
+                <li>For step headings, start with a bare infinitive also known as plain form or base
+                    form verbs. For example, connect, set up, build. </li>
+                <li>Do not use use the <i>-ing</i> form of the verb because it may have multiple
+                    meanings.</li>
+                <li>Express the heading as a complete statement. For example, instead of writing,
+                    "Set up access", you should write, "Set up access to a Cloud Storage
+                    bucket."</li>
+            </ul>
+            <p>Next, optionally provide some background information about the task so users know
+                what they are about to do and why. </p>
+            <p>Remember to orient your users when guiding them through each step. If they need to
+                open a particular file or dialog to complete the task, provide that information
+                first.</p>
+            <p>Optionally, you can add a code sample or screenshot after the explanatory text,
+                depending on the type of How-to you are writing. Screenshots are a great way to show
+                specific parts of the screen you are referring to in a step.</p>
+            <p>If you are including code samples, make sure to add comments to your code to help
+                learners understand what each part of the code does. Additionally, make sure your
+                code samples work, as learners will copy and paste your code to use in their own
+                projects.</p>
+            <p>The last, and optional, element in a step, is the result. Provide examples of sample
+                output such as return data, a message so that the users can validate that they
+                performed the step correctly or not. In a How-to guide for GitHub, for example, you
+                can describe what happens after a user clicks the "Create repository" button.</p>
+            <p/>
+            <p>Here is an example step:</p>
+            <p>Step 1. Enter a name for your new repository. </p>
+            <p>Good repository names are short and self-explanatory. Avoid repository names with
+                three or more words.</p>
+            <p>After you click "Create repository", GitHub creates your repository and the main page
+                for the repository is displayed.</p>
+            <p>If needed, you can add sub-steps below a primary step. Make sure to indent the
+                sub-step one tab space over if you're using Markdown:</p>
+            <p>1. Create a new pull request.</p>
+            <p> a. Navigate to the main page of your repository. </p>
+            <p> b. Under your repository name, click **Pull requests**.</p>
+            <p> By default, all open pull requests are displayed.</p>
+            <p> c. ....</p>
+            <p/>
+            <p>If you are including code samples in your steps, make sure they are also indented
+                correctly:</p>
+            <ol id="ol_x2x_gwg_g5b">
+                <li>
+                    <p>Set your Git username for your repository.</p>
+                    <p> You can change the name that is associated with your Git commits using the
+                        git config command.</p>
+                    <p/>
+                </li>
+            </ol>
+            <p> {git config user.name "Dakota Everson"}</p>
+            <p> </p>
+        </section>
+        <section id="aboutseealso">
+            <title><b>About the See also section</b></title>
+            <p>It's likely that during the course of explaining a multi-task process you will touch
+                on other topics related to the current one, but not strictly required. This section
+                is useful to provide your users with suggestions on further reading without
+                interrupting the topic covered by the current document. An example might be setting
+                up an email client, which requires working credentials to an active email address.
+                The reader need not know how to install and run their own email server in order to
+                acquire that access, although this is potentially useful. The link to documentation
+                on running a local mail server could therefore be included in the "See also"
+                section.</p>
+            <p/>
+        </section>
+        <section id="bestpractices">
+            <title><b>Best practices for writing a How-to guide</b></title>
+            <p>Consider the following when writing a How-to guide:</p>
+            <ol id="ol_qbg_wwg_g5b">
+                <li>Use active verbs. </li>
+                <li>Prepare your users for the unexpected, alert the user to its possibility and
+                    provide guidance on how to deal with it. For example, include callouts such as
+                    warning, caution, or note to communicate important information while completing
+                    a task.</li>
+                <li>Inform your users of all the alternatives available to complete a task. Use
+                    conditional imperatives. If you want x, do y. To achieve w, do z. </li>
+                <li>Do not explain concepts. </li>
+                <li>Do not provide too many links within the guide. Keep your users on a single page
+                    as much as possible. Instead provide links to additional resources at the bottom
+                    of the page.</li>
+                <li>Avoid writing guides for edge cases at the outer boundaries of your product’s
+                    capability.</li>
+            </ol>
+            <p/>
+            <p><xref href="additionalresources.dita">Link to Additional Resources.</xref></p>
+            <p/>
+        </section>
+        <section id="additionalresources">
+            <title><b>Additional Resources</b></title>
+            <p>Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D. And Waterhouse, H. 2021<i>.
+                    </i><xref href="https://docsfordevelopers.com/" format="html" scope="external"
+                        ><i>Docs for Developers: An Engineer’s Field Guide to Technical Writing 1st
+                        ed. Edition</i></xref><i>.</i> Apress</p>
+            <p>Diátaxis. 2017. <i>A systematic framework for technical documentation authoring.
+                    </i><xref href="https://diataxis.fr" format="html" scope="external"
+                    >https://diataxis.fr</xref></p>
+            <p/>
+        </section>
+        <section id="usefullinks">
+            <title>Useful links</title>
+            <p>Current How-to template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/how-to"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/how-to</xref></p>
+            <p>Diátaxis. framework</p>
+            <p><xref href="https://diataxis.fr/tutorials-how-to/" format="html" scope="external"
+                    >https://diataxis.fr/tutorials-how-to/</xref></p>
+            <p>Quickstart template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/quickstarts"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/quickstarts</xref></p>
+            <p>The Good Docs contributing guide</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/blob/dev/CONTRIBUTING.md"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/blob/dev/CONTRIBUTING.md</xref>
+            </p>
+            <p>Tutorial template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/tutorial"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/tutorial</xref></p>
+            <p/>
+        </section>
+        <section id="sampleguides">
+            <title>Sample How-to guides</title>
+            <p>Anbox Cloud. How to create an application</p>
+            <p><xref href="https://anbox-cloud.io/docs/howto/application/create" format="html"
+                    scope="external">https://anbox-cloud.io/docs/howto/application/create</xref></p>
+            <p>Charmed Kubeflow. How to install Kubeflow v1.4</p>
+            <p><xref href="https://charmed-kubeflow.io/docs/install" format="html" scope="external"
+                    >https://charmed-kubeflow.io/docs/install</xref></p>
+            <p>Divio How-to guides</p>
+            <p><xref href="https://documentation.divio.com/how-to-guides/" format="html"
+                    scope="external">https://documentation.divio.com/how-to-guides/</xref></p>
+            <p>Google Cloud Resource Manager Documentation</p>
+            <p><xref href="https://cloud.google.com/resource-manager/docs/how-to" format="html"
+                    scope="external"
+                >https://cloud.google.com/resource-manager/docs/how-to</xref></p>
+            <p>Google Compute Engine documentation</p>
+            <p><xref href="https://cloud.google.com/compute/docs/how-to" format="html"
+                    scope="external">https://cloud.google.com/compute/docs/how-to</xref></p>
+            <p>Google developer documentation style guide/. Procedures.</p>
+            <p><xref href="https://developers.google.com/style/procedures" format="html"
+                    scope="external">https://developers.google.com/style/procedures</xref></p>
+            <p>openstack How-to guides</p>
+            <p><xref href="https://docs.openstack.org/charm-guide/latest/admin/index.html"
+                    format="html" scope="external"
+                    >https://docs.openstack.org/charm-guide/latest/admin/index.html</xref></p>
+            <p>The jupyter-book repository!</p>
+            <p><xref href="https://jupyterbook.org/en/stable/contribute/intro.html" format="html"
+                    scope="external"
+                >https://jupyterbook.org/en/stable/contribute/intro.html</xref></p>
+            <p>Ubuntu Core How-to guides</p>
+            <p><xref href="https://ubuntu.com/core/docs/how-to" format="html" scope="external"
+                    >https://ubuntu.com/core/docs/how-to</xref></p>
+            <p> </p>
+            <p/>
+        </section>
+    </body>
+</topic>

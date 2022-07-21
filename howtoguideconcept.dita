@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="howtoguideconcept">
+    <title>How-to guide concept</title>
+    <shortdesc>How-to guides describe a set of ordered sequential steps users must complete to
+        accomplish a specific task. </shortdesc>
+    <conbody>
+        <p>How-to guides assume that a user has basic knowledge of the product and the user knows
+            what they want to achieve.</p>
+        <p>How-to guides are accessed by users who have experience with a product but need a
+            specific question answered.</p>
+        <p>How-to guides can benefit new users who want to solve a problem instantly provided the
+            How-to is well-written and states any prerequisite knowledge required to complete the
+            task.</p>
+        <p>How-to guides have concise, easy-to-understand instructions that simplify complex
+            actions.</p>
+    </conbody>
+</concept>

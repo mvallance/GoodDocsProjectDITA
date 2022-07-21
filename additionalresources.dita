@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled5">
+    <title>Additional Resources</title>
+    <body>
+        <p/>
+        <section id="section_l3s_xwg_g5b">
+            <title><b>Additional Resources</b></title>
+            <p>Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D. And Waterhouse, H. 2021<i>.
+                    </i><xref href="https://docsfordevelopers.com/" format="html" scope="external"
+                        ><i>Docs for Developers: An Engineer’s Field Guide to Technical Writing 1st
+                        ed. Edition</i></xref><i>.</i> Apress</p>
+            <p>Diátaxis. 2017. <i>A systematic framework for technical documentation authoring.
+                    </i><xref href="https://diataxis.fr" format="html" scope="external"
+                    >https://diataxis.fr</xref></p>
+            <p/>
+        </section>
+        <section id="section_hfj_zwg_g5b">
+            <title>Useful links</title>
+            <p>Current How-to template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/how-to"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/how-to</xref></p>
+            <p>Diátaxis. framework</p>
+            <p><xref href="https://diataxis.fr/tutorials-how-to/" format="html" scope="external"
+                    >https://diataxis.fr/tutorials-how-to/</xref></p>
+            <p>Quickstart template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/quickstarts"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/quickstarts</xref></p>
+            <p>The Good Docs contributing guide</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/blob/dev/CONTRIBUTING.md"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/blob/dev/CONTRIBUTING.md</xref>
+            </p>
+            <p>Tutorial template</p>
+            <p><xref href="https://github.com/thegooddocsproject/templates/tree/dev/tutorial"
+                    format="html" scope="external"
+                    >https://github.com/thegooddocsproject/templates/tree/dev/tutorial</xref></p>
+            <p/>
+        </section>
+        <section id="section_k3g_bxg_g5b">
+            <title>Sample How-to guides</title>
+            <p>Anbox Cloud. How to create an application</p>
+            <p><xref href="https://anbox-cloud.io/docs/howto/application/create" format="html"
+                    scope="external">https://anbox-cloud.io/docs/howto/application/create</xref></p>
+            <p>Charmed Kubeflow. How to install Kubeflow v1.4</p>
+            <p><xref href="https://charmed-kubeflow.io/docs/install" format="html" scope="external"
+                    >https://charmed-kubeflow.io/docs/install</xref></p>
+            <p>Divio How-to guides</p>
+            <p><xref href="https://documentation.divio.com/how-to-guides/" format="html"
+                    scope="external">https://documentation.divio.com/how-to-guides/</xref></p>
+            <p>Google Cloud Resource Manager Documentation</p>
+            <p><xref href="https://cloud.google.com/resource-manager/docs/how-to" format="html"
+                    scope="external"
+                >https://cloud.google.com/resource-manager/docs/how-to</xref></p>
+            <p>Google Compute Engine documentation</p>
+            <p><xref href="https://cloud.google.com/compute/docs/how-to" format="html"
+                    scope="external">https://cloud.google.com/compute/docs/how-to</xref></p>
+            <p>Google developer documentation style guide/. Procedures.</p>
+            <p><xref href="https://developers.google.com/style/procedures" format="html"
+                    scope="external">https://developers.google.com/style/procedures</xref></p>
+            <p>openstack How-to guides</p>
+            <p><xref href="https://docs.openstack.org/charm-guide/latest/admin/index.html"
+                    format="html" scope="external"
+                    >https://docs.openstack.org/charm-guide/latest/admin/index.html</xref></p>
+            <p>The jupyter-book repository!</p>
+            <p><xref href="https://jupyterbook.org/en/stable/contribute/intro.html" format="html"
+                    scope="external"
+                >https://jupyterbook.org/en/stable/contribute/intro.html</xref></p>
+            <p>Ubuntu Core How-to guides</p>
+            <p><xref href="https://ubuntu.com/core/docs/how-to" format="html" scope="external"
+                    >https://ubuntu.com/core/docs/how-to</xref></p>
+            <p> </p>
+        </section>
+        <p></p>
+    </body>
+</topic>

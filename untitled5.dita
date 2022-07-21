@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled5">
+    <title>Example</title>
+    <body>
+        <section conref="howtoguide.dita#howtoguide/examplehowto" id="section_kr3_cln_g5b"
+            ><title/><p/></section>
+    </body>
+</topic>
