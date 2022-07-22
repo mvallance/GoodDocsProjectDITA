@@ -1,20 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task">
-    <title>How-to reuse content</title>
-    <shortdesc>A short explanation.</shortdesc>
+    <title>How-to synchronize OxygenXML DITA files to GitHub</title>
+    <shortdesc>This is my verified procedure for synchronizing an OxygenXML DITA Project to GitHub.
+        It is quite unintuitive but I found this is the most effective procedure. <b>IMPORTANT:
+        </b>When creating your OxygenXML Project it is very important that you first organise your
+        folders. Your DITA files must be loacted within the relevant folder. Also, any images or
+        videos must be within the same Project folder. Do not use the dedicated folder for
+        additional Projects and certainly do not move folders once set up. Finally, when creating
+        new files in OxygenXML, ensure they are located within the relevant folder and have
+        easy-to-remember file names.  </shortdesc>
     <taskbody>
-        <context>Follow the steps.<p/></context>
+        <context>First create a GitHub reposoitory, then upload files, and finally synchronize from
+            OxygenXML. <p/></context>
         <steps>
             <step>
-                <cmd>Do this.</cmd>
+                <cmd>Create a new account at GitHub.com</cmd>
             </step>
             <step>
-                <cmd>Do this.</cmd>
+                <cmd>Create a new repository. Click the green <b>New</b> icon in the top left corner
+                    of the webpage.</cmd>
             </step>
             <step>
-                <cmd>Do this. </cmd>
+                <cmd>Name your Repository. You are advised to keep it short and memorable.</cmd>
+            </step>
+            <step>
+                <cmd>Type a short description of the intended content. This will help you and others
+                    recall the content as you create more repositories in future. </cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Public</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Add a README</b> file.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Create repository</b>.</cmd>
+            </step>
+            <step>
+                <cmd>You have successfully created a new repository. </cmd>
+                <info>
+                    <p/>
+                </info>
             </step>
         </steps>
     </taskbody>
+    <task id="task_jjz_4h5_g5b">
+        <title>How-to Add files to your repository.</title>
+        <taskbody>
+            <steps id="steps_apv_h35_g5b">
+                <step>
+                    <cmd>In your GitHub repository, select <b>Add file</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>From the drop-down menu, selct <b>Upload files</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Select <b>choose your files</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Locate the relevent OxygenXML Project folder on your computer and select
+                        all the files.</cmd>
+                </step>
+                <step>
+                    <cmd>Click the green icon <b>Commit changes</b>. In this instance, Commit
+                        directly to the main branch.</cmd>
+                </step>
+                <step>
+                    <cmd>Your OxygenXML Project is now on GitHub. </cmd>
+                    <info>
+                        <p/>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+        <task id="task_nf4_2j5_g5b">
+            <title>How to synch Oxygen XML files to your GitHub repository.</title>
+            <taskbody>
+                <steps id="steps_rdg_hj5_g5b">
+                    <step>
+                        <cmd>In OxygenXML click the Git drop down menu and select <b>Show
+                                staging</b></cmd>
+                    </step>
+                    <step>
+                        <cmd>You will need to make changes to a DITA file such as adding text.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Save the file, and the file will appear in the <b>Unstaged files</b>
+                            pane of  <b>Git Staging</b>.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Click the <b>Stage all </b>icon (two arrows facing downwards). The file
+                            will then move to the <b>Staged files</b> pane.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Type a short message in the <b>Commit message</b> pane. This is used to
+                            remind you of the edits you made. </cmd>
+                    </step>
+                    <step>
+                        <cmd>The <b>Commit</b> button is now visible (not greyed out).</cmd>
+                    </step>
+                    <step>
+                        <cmd>Click the <b>Commit</b> button.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Finally, at the top of the <b>Git Staging</b> panes, click the
+                                <b>Push</b> arrow (it is facing upwards) to push tyour changes to
+                            your GitHub repository. </cmd>
+                    </step>
+                    <step>
+                        <cmd>You have successfully synchronized your OxygenXML Project to
+                            GitHub.</cmd>
+                    </step>
+                    <step>
+                        <cmd>From this point onwards, you only need to use <b>Git Staging</b> after
+                            you have made changes in your OxyGenXML Project.</cmd>
+                    </step>
+                </steps>
+            </taskbody>
+        </task>
+    </task>
 </task>
