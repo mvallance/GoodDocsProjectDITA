@@ -115,6 +115,15 @@
                     <step>
                         <cmd>From this point onwards, you only need to use <b>Git Staging</b> after
                             you have made changes in your OxyGenXML Project.</cmd>
+                        <info>
+                            <p/>
+                            <p>
+                                <note id="note_yqq_1kv_g5b">The process has been confirmed by
+                                    commiting and pushing this file.<p/><p>The GitHub repository is
+                                        at:
+                                        <codeblock id="codeblock_izp_lkv_g5b">&lt;a href="https://github.com/mvallance/GoodDocsProjectDITA"> mvallance/GoodDocsProjectDITA &lt;/a></codeblock></p></note>
+                            </p>
+                        </info>
                     </step>
                 </steps>
             </taskbody>
