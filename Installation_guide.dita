@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Installation_guide">
+    <title>Installation Guide</title>
+    <shortdesc>This is a template explaining how to write a good Installation Guide.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Explain the purpose of the Guide.</p>
+            <p>{The Installation Guide explains how to install xx software version xx on xx devices
+                with operating system xx.}</p>
+            <p>Explain who should use this Guide.</p>
+            <p>{The Installation Guide is intended for all users of xx software, and assumes you
+                have some knowledge of the operating system xx.}</p>
+            <p>Explain what is described in the Guide.</p>
+            <p>{The Installation Guide describes the installation and upgrade of xx software.}</p>
+            <p/>
+        </context>
+        <steps>
+            <step>
+                <cmd><b>Installation</b></cmd>
+                <info>
+                    <p>This section itemizes the steps to be taken for successful installation. Use
+                        numbered lists. Start each statement with an active verb in its base form
+                        (e.g., connect, choose). Start statement with a preposition if installation
+                        step is specific (e.g, On Apple TV, …, In MacOS, …). If there are different
+                        options, such as installing new software or upgrading existing software,
+                        start a new list. </p>
+                    <p>{</p>
+                    <p>1. Download the software update from www.xxxxx</p>
+                    <p>2. Make sure you are running the latest version of MacOS.</p>
+                    <p>3. On Apple TV, open Settings.</p>
+                    <p>4. xxx</p>
+                    <p>}</p>
+                    <p/>
+                </info>
+            </step>
+            <step>
+                <cmd><b>System requirements</b></cmd>
+                <info>
+                    <p>Identify the system requirements for this installation. The requirements are
+                        a bullet list.</p>
+                    <p>{</p>
+                    <ul id="ul_rck_ytf_dvb">
+                        <li>MacOS 12.4</li>
+                        <li>Apple TV 3.1</li>
+                    </ul>
+                    <p>}</p>
+                    <p/>
+                </info>
+            </step>
+            <step>
+                <cmd><b>Known problems</b></cmd>
+                <info>
+                    <p>Describe known problems followed by a resolution.</p>
+                    <p/>
+                </info>
+            </step>
+            <step>
+                <cmd><b>Post installation</b></cmd>
+                <info>
+                    <p>Describe what needs to be done after installation.</p>
+                    <p>{After successfully installing the software, delete the installation
+                        file.}</p>
+                    <p/>
+                </info>
+            </step>
+            <step>
+                <cmd><b>Feedback</b></cmd>
+                <info>
+                    <p>Add contact information for feedback or support. This is usually a link to a
+                        generic Feedback page. </p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
